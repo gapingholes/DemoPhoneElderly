@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonPeter"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="Peter" />
+
+    <Button
+        android:id="@+id/buttonMary"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="mary" />
+</LinearLayout>
